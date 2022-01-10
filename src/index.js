@@ -10,7 +10,7 @@ module.exports = function toReadable (number) {
     if (number < 0) throw new Error('Negative numbers are not supported.');
     if (number === 0) return 'zero';
 
-    //the case of 1 - 20
+    //1 - 20
     if (number < 20)  return ones[number];
     if (numString.length === 2) {
       if (numString[1] === '0')
